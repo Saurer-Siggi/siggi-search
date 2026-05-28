@@ -1,0 +1,50 @@
+/* Brand design tokens */
+:root {
+  --color-primary: #ECAC00;
+  --color-blue: #0BB9E6;
+  --color-grey: #9E9E9E;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+  background: var(--color-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  height: 100%;
+}
+
+/* Leaflet z-index fix — keep popups above our UI panels but below modals */
+.leaflet-pane { z-index: 400; }
+.leaflet-top, .leaflet-bottom { z-index: 450; }
+
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d0d0d0; border-radius: 2px; }

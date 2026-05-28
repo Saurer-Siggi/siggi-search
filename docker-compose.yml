@@ -1,10 +1,19 @@
-version: '3'
 services:
-  frontend:
-    build: ./frontend
-    ports:
-      - "80:80"
-  backend:
-    build: .
-    ports:
-      - "8000:8000"
+  app:
+    image: ghcr.io/saurer-siggi/siggi-search:latest
+    hostname: siggi-search
+    restart: unless-stopped
+    environment:
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:?ADMIN_PASSWORD is required}
+      - PORT=3000
+    volumes:
+      - siggi_data:/app/data
+    networks:
+      - proxy
+
+volumes:
+  siggi_data:
+
+networks:
+  proxy:
+    external: true

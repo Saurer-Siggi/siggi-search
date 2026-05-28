@@ -1,20 +1,29 @@
-# Use an official Python runtime as the base image
-FROM python:3.9
+# Stage 1 — build the Svelte app
+FROM node:22-alpine AS builder
 
-# Set the working directory in the container
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+
+COPY . .
+RUN npm run build
+
+# Stage 2 — run the Express server
+FROM node:22-alpine
+
 WORKDIR /app
 
-# Copy the requirements file to the working directory
-COPY requirements.txt .
+# Only copy production dependencies
+COPY package*.json ./
+RUN npm ci --omit=dev
 
-# Install the Python dependencies
-RUN pip install --no-cache-dir --upgrade -r requirements.txt
+# Copy built frontend and server
+COPY --from=builder /app/dist ./dist
+COPY server ./server
 
-# Copy the backend code to the working directory
-COPY . .
+# Copy seed data (overridden by volume in production)
+COPY data ./data
 
-# Expose the port on which the backend app will run
-EXPOSE 8000
+EXPOSE 3000
 
-# Run the backend app using Uvicorn
-CMD ["fastapi", "run", "main.py", "--port", "8000"]
+CMD ["node", "server/index.js"]

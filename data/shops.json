@@ -1,0 +1,158 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "name": "UniThekle",
+      "type": "bar",
+      "address": "Allmandring 17",
+      "zipCode": "70569",
+      "city": "Stuttgart",
+      "latitude": 48.74321119257609,
+      "longitude": 9.09750000789852,
+      "googleMapsUrl": "https://maps.app.goo.gl/uitWVy4aoMpbT6A38"
+    },
+    {
+      "id": 2,
+      "name": "Café Faust",
+      "type": "bar",
+      "address": "Geschwister-Scholl-Straße 24c",
+      "zipCode": "70174",
+      "city": "Stuttgart",
+      "latitude": 48.78317558212067,
+      "longitude": 9.175697320898694,
+      "googleMapsUrl": "https://maps.app.goo.gl/qgB5hNMX4ybmygoj7"
+    },
+    {
+      "id": 3,
+      "name": "Trude",
+      "type": "bar",
+      "address": "Töpferstr. Ecke, Nadlerstraße",
+      "zipCode": "70173",
+      "city": "Stuttgart",
+      "latitude": 48.773799320144555,
+      "longitude": 9.178102825840934,
+      "googleMapsUrl": "https://maps.app.goo.gl/7sku8aFp4DiCQMQb6"
+    },
+    {
+      "id": 4,
+      "name": "Frischemarkt Roth",
+      "type": "retail",
+      "address": "Pfaffenwaldring 45",
+      "zipCode": "70569",
+      "city": "Stuttgart",
+      "latitude": 48.746194990162415,
+      "longitude": 9.103076778632337,
+      "googleMapsUrl": "https://maps.app.goo.gl/8Hjd4a3c4grghupZ6"
+    },
+    {
+      "id": 5,
+      "name": "Getränke Krodel",
+      "type": "retail",
+      "address": "Reinsburgstraße 78A",
+      "zipCode": "70178",
+      "city": "Stuttgart",
+      "latitude": 48.76891487047369,
+      "longitude": 9.161180100000331,
+      "googleMapsUrl": "https://maps.app.goo.gl/j6546SPpZkxTDUs18"
+    },
+    {
+      "id": 6,
+      "name": "Spätle",
+      "type": "retail",
+      "address": "Marienstraße 10",
+      "zipCode": "70178",
+      "city": "Stuttgart",
+      "latitude": 48.773669202431286,
+      "longitude": 9.173519597021153,
+      "googleMapsUrl": "https://maps.app.goo.gl/usj2iFRwBtNaBDy4A"
+    },
+    {
+      "id": 7,
+      "name": "Café Galao",
+      "type": "bar",
+      "address": "Tübinger Str. 90",
+      "zipCode": "70178",
+      "city": "Stuttgart",
+      "latitude": 48.7653090284543,
+      "longitude": 9.168411365256686,
+      "googleMapsUrl": "https://maps.app.goo.gl/Nmy6Yn76zwiwujre9"
+    },
+    {
+      "id": 8,
+      "name": "Der BarBus",
+      "type": "bar",
+      "address": "Ringstraße",
+      "zipCode": "69168",
+      "city": "Wiesloch",
+      "latitude": 49.293465539532754,
+      "longitude": 8.700469634432244,
+      "googleMapsUrl": "https://www.derbarbus.de"
+    },
+    {
+      "id": 9,
+      "name": "Mata Hari",
+      "type": "bar",
+      "address": "Geißstraße 3",
+      "zipCode": "70173",
+      "city": "Stuttgart",
+      "latitude": 48.773980439784566,
+      "longitude": 9.177645000897268,
+      "googleMapsUrl": "https://maps.app.goo.gl/5vXLHEKUxbyR5eY57"
+    },
+    {
+      "id": 10,
+      "name": "reBOOTS",
+      "type": "bar",
+      "address": "Bopserstraße 9",
+      "zipCode": "70180",
+      "city": "Stuttgart",
+      "latitude": 48.77034414622594,
+      "longitude": 9.17940700662389,
+      "googleMapsUrl": "https://maps.app.goo.gl/izHgXmqrwcgESD3u6"
+    },
+    {
+      "id": 11,
+      "name": "Laden 0711",
+      "type": "retail",
+      "address": "Rötestraße 58",
+      "zipCode": "70197",
+      "city": "Stuttgart",
+      "latitude": 48.77323428602106,
+      "longitude": 9.154623650887022,
+      "googleMapsUrl": "https://maps.app.goo.gl/i9j6sjxbRAY7ysRP8"
+    },
+    {
+      "id": 12,
+      "name": "Breitscheid Stüble",
+      "type": "bar",
+      "address": "Breitscheidstraße 49",
+      "zipCode": "70176",
+      "city": "Stuttgart",
+      "latitude": 48.77782476843768,
+      "longitude": 9.164902498059721,
+      "googleMapsUrl": "https://maps.app.goo.gl/PbRvoH9DXhbanaYq6"
+    },
+    {
+      "id": 13,
+      "name": "Suessholz",
+      "type": "bar",
+      "address": "Wilhelmspl. 3",
+      "zipCode": "70182",
+      "city": "Stuttgart",
+      "latitude": 48.77171622351602,
+      "longitude": 9.17859046779271,
+      "googleMapsUrl": "https://maps.app.goo.gl/PTbLJvmRz81nmQmm7"
+    },
+    {
+      "id": 14,
+      "name": "La Concha",
+      "type": "bar",
+      "address": "Wilhelmspl. 5",
+      "zipCode": "70182",
+      "city": "Stuttgart",
+      "latitude": 48.77157080520272,
+      "longitude": 9.178876092896415,
+      "googleMapsUrl": "https://maps.app.goo.gl/wG565eXMc7q6GQNr6"
+    }
+  ]
+}
