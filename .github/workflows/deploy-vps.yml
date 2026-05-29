@@ -53,7 +53,7 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /opt/siggi-search
+            cd /home/deploy/siggi-search
             docker compose pull
             docker compose up -d --remove-orphans
             docker image prune -f
